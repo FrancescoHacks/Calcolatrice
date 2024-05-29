@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="270.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calcolatrice.HelloController">
+   <children>
+      <Button fx:id="Ac" layoutX="20.0" layoutY="180.0" mnemonicParsing="false" onAction="#Delete" prefHeight="40.0" prefWidth="170.0" style="-fx-font-weight: BOLD;" text="AC">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Division" alignment="CENTER" layoutX="200.0" layoutY="180.0" mnemonicParsing="false" onAction="#Division" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="÷" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Seven" layoutX="21.0" layoutY="230.0" mnemonicParsing="false" onAction="#Seven" prefHeight="40.0" prefWidth="50.0" style="-fx-border-radius: 50px;" text="7">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Eight" layoutX="81.0" layoutY="230.0" mnemonicParsing="false" onAction="#Eight" prefHeight="40.0" prefWidth="50.0" style="-fx-border-radius: 50px;" text="8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Moltiplication" alignment="CENTER" layoutX="201.0" layoutY="230.0" mnemonicParsing="false" onAction="#Moltiplication" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="×" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Nine" layoutX="141.0" layoutY="230.0" mnemonicParsing="false" onAction="#Nine" prefHeight="40.0" prefWidth="50.0" style="-fx-border-radius: 50px;" text="9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Four" layoutX="21.0" layoutY="280.0" mnemonicParsing="false" onAction="#Four" prefHeight="40.0" prefWidth="50.0" style="-fx-border-radius: 50px;" text="4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Five" layoutX="81.0" layoutY="280.0" mnemonicParsing="false" onAction="#Five" prefHeight="40.0" prefWidth="50.0" style="-fx-font-weight: bold;" text="5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Subtraction" alignment="CENTER" layoutX="201.0" layoutY="280.0" mnemonicParsing="false" onAction="#Subtraction" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Six" layoutX="141.0" layoutY="280.0" mnemonicParsing="false" onAction="#Six" prefHeight="40.0" prefWidth="50.0" style="-fx-border-radius: 50px;" text="6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="One" layoutX="21.0" layoutY="330.0" mnemonicParsing="false" onAction="#One" prefHeight="40.0" prefWidth="50.0" style="-fx-font-weight: bold;" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Two" layoutX="81.0" layoutY="330.0" mnemonicParsing="false" onAction="#Two" prefHeight="40.0" prefWidth="50.0" style="-fx-font-weight: bold;" text="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Addition" alignment="CENTER" layoutX="201.0" layoutY="330.0" mnemonicParsing="false" onAction="#Addition" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="+" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Three" layoutX="141.0" layoutY="330.0" mnemonicParsing="false" onAction="#Three" prefHeight="40.0" prefWidth="50.0" style="-fx-font-weight: bold;" text="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Zero" layoutX="21.0" layoutY="380.0" mnemonicParsing="false" onAction="#Zero" prefHeight="40.0" prefWidth="110.0" style="-fx-font-weight: bold;" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Point" layoutX="141.0" layoutY="380.0" mnemonicParsing="false" onAction="#Decimal" prefHeight="40.0" prefWidth="50.0" style="-fx-font-weight: bold;" text=".">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Result" layoutX="201.0" layoutY="380.0" mnemonicParsing="false" onAction="#Result" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="=">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="Total" alignment="CENTER_RIGHT" layoutX="22.0" layoutY="88.0" prefHeight="42.0" prefWidth="224.0" style="-fx-text-alignment: right; -fx-font-weight: bold; -fx-text-fill: white;" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="Total1" alignment="CENTER_RIGHT" layoutX="22.0" layoutY="31.0" prefHeight="42.0" prefWidth="224.0" style="-fx-text-alignment: right; -fx-font-weight: bold; -fx-text-fill: white;" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
