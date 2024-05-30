@@ -69,46 +69,6 @@ public class HelloController {
     public void Delete(){
         Total.setText("");
         Total1.setText("");
-        
-       /* String[] Total2 = Total1.getText().split("");
-        Vector<String> Total3 = new Vector<>(0, 1);
-        String[] MTotal2 = Total1.getText().split("");
-        Vector<String> MTotal3 = new Vector<>(0, 1);
-
-        /*if(!MTotal3.get((MTotal3.size()-1)).equals("+") || !MTotal3.get((MTotal3.size()-1)).equals("-") ||
-        !MTotal3.get((MTotal3.size()-1)).equals("*") || !MTotal3.get((MTotal3.size()-1)).equals("/")){
-            MTotal3.remove((MTotal3.size()-1));
-            Total3.remove(Total3.size()-1);
-        }
-
-        for(int i=0; i<Total3.size(); i++){
-            System.out.println(Total3.get(i));
-        
-        }
-
-        for(int i=0; i<MTotal3.size(); i++){
-            System.out.println(MTotal3.get(i));
-        
-        }
-
-        if(MTotal3.get((MTotal3.size()-1)).equals(";")){
-            MTotal3.remove((MTotal3.size()-1));
-            MTotal3.remove((MTotal3.size()-2));
-            MTotal3.remove((MTotal3.size()-3));
-            Total3.remove((Total3.size()-1));
-        }
-
-        for(int i=0; i<MTotal3.size(); i++){
-            Total1.setText(Total1.getText() + MTotal3.get(i));
-        
-        }
-
-        for(int i=0; i<Total3.size(); i++){
-            Total.setText(Total.getText() + Total3.get(i));
-        
-        }
-
-        */
     }
 
     public void Addition(){
